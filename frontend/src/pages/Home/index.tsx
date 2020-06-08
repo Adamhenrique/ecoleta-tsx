@@ -11,7 +11,9 @@ const Home: React.FC = () => {
     <div id="page-home">
       <div className="content">
         <header>
-          <img src={logo} alt="Ecoleta" />
+          <Link to="/">
+            <img src={logo} alt="Ecoleta" />
+          </Link>
         </header>
 
         <main>
